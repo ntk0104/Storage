@@ -1,0 +1,8 @@
+# Powershell command to get value of user environment variables: (ex: TEMP):
+	$env:TEMP 
+	or
+	[System.IO.Path]::GetTempPath()
+	
+# Powershell command to get value of SYSTEM environment variables: (ex: TEMP):
+	[Environment]::GetEnvironmentVariable("TEMP", "Machine")
+	
