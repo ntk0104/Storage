@@ -18,3 +18,6 @@
 
 # Run .exe with parameter (converted from ps1) 
 	Start-Process nameoffile.exe parameter
+	
+# Run powershell script without print error to console
+	-Recurse -Force -ErrorAction SilentlyContinue
