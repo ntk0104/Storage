@@ -9,3 +9,12 @@
 # Convert powershell script to .exe file
 	https://redmondmag.com/articles/2017/01/27/convert-a-powershell-script-into-an-exe-file.aspx
 	
+# Declare parameter for powershell script:
+	$option=$args[0]
+	if($option.ToString().ToLower().Equals("yes")){
+
+# Run powershell script with parameter:
+	nameofscript.ps1 paramer (e.g test.ps1 yes)
+
+# Run .exe with parameter (converted from ps1) 
+	Start-Process nameoffile.exe parameter
