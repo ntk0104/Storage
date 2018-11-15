@@ -6,3 +6,6 @@
 # Powershell command to get value of SYSTEM environment variables: (ex: TEMP):
 	[Environment]::GetEnvironmentVariable("TEMP", "Machine")
 	
+# Convert powershell script to .exe file
+	https://redmondmag.com/articles/2017/01/27/convert-a-powershell-script-into-an-exe-file.aspx
+	
